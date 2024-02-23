@@ -2,13 +2,16 @@
   max-width: 18rem;
   position: sticky;
   position: -webkit-sticky;
-  top: 120px;
+  top: 107px;
   height: fit-content;
   display: none;
+  margin-top: 2.75rem;
 }
 
 .toc-title {
   font-weight: 500;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .toc-list {

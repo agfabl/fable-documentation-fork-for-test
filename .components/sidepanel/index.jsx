@@ -2,7 +2,15 @@ import React from 'react'
 import "./index.css"
 
 const flattenTree = (root) => {
-  const stack = [{ node: root, depth: 0 }];
+  const stack = root
+  .map(node => ({node, depth: 0}))
+  .filter(el => el.node.title !== ".components")
+  .filter(el => {
+    if(!el.node.url && el.node.children?.length <= 0) {
+      return false;
+    }
+    return true;
+  });
   const flattenedNodes = [];
 
   while (stack.length > 0) {

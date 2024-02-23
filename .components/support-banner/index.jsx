@@ -13,10 +13,8 @@ const SupportBanner = () => {
         ></img>
       </div>
       <div className="support-banner-text-con">
-        Still, have questions or pondering a use case not covered here? We're
-        here to help! Reach out to us at &nbsp;
+      If you need any help in getting started with Fable and making the best of it for your business, feel free to contact us at &nbsp;
         <a href="mailto:support@sharefable.com">support@sharefable.com</a>
-        &nbsp; and let's craft your perfect demo together.
       </div>
     </div>
   );

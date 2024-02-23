@@ -2,7 +2,7 @@
   max-width: 18rem;
   position: fixed;
   top: 97px;
-  padding: 1rem;
+  padding: 0 1rem;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   height: calc(100vh - 97px);
@@ -10,6 +10,8 @@
   transition: all 0.3s ease;
   transform: translateX(-100%);
   background-color: #f2e6fc;
+  background-color: rgb(251, 246, 255);
+  border-right: 1px solid rgb(208, 208, 255);
   z-index: 1;
 }
 
@@ -39,6 +41,7 @@
   height: calc(100vh - 120px - 7rem);
   overflow-y: auto;
   gap: 1rem;
+  margin-top: 2.75rem;
 }
 
 .sidepanel-list::-webkit-scrollbar {
@@ -79,6 +82,8 @@
     width: fit-content;
     transform: translateX(0%);
     border-radius: 0;
+    border: none;
+    top: 107px;
   }
 
   .close-icon {
